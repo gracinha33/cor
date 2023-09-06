@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: violet;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px; /* Espaçamento entre as caixas de cores */
+}
+
+.cores {
+    flex: 1;
+    width: 20%;
+    height: 40%; /* Aumentei a altura para 40% */
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.btn-action {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto; /* Centraliza vertical e horizontalmente */
+    display: block; /* Isso garante que ele seja centralizado horizontalmente */
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+button {
+    background-color: blueviolet;
+    color: white; /* Defina a cor do texto */
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block; /* Isso garante que ele seja centralizado horizontalmente */
+    margin: auto; /* Centraliza vertical e horizontalmente */
+}
